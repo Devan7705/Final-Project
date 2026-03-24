@@ -1,18 +1,17 @@
 ```markdown
 # 🌍 World Happiness Data Analysis & Visualization 📊
 
-✨ A Python-based project that explores the **World Happiness Dataset (2015)** and transforms raw data into meaningful insights using powerful visualizations.
+✨ This project analyzes the **World Happiness Report (2015 dataset)** using Python and creates meaningful visual insights.
 
 ---
 
 ## 🚀 Features
 
-🔹 Load and explore dataset  
-🔹 Data cleaning & preprocessing  
-🔹 Handle missing values smartly  
-🔹 Statistical analysis (mean, std, etc.)  
-🔹 Data visualization using multiple charts 📈  
-🔹 Insights from Happiness Score & GDP  
+🔹 Data loading & exploration  
+🔹 Data cleaning (missing values handled)  
+🔹 Statistical analysis  
+🔹 Data visualization (charts & graphs)  
+🔹 Insights from Happiness Score  
 
 ---
 
@@ -30,7 +29,7 @@
 
 ```
 
-Project9/
+Final Project/
 │── Screenshots/
 │   ├── s1.png
 │   ├── s2.png
@@ -52,97 +51,72 @@ Project9/
 
 ## ▶️ How to Run
 
-1️⃣ Open VS Code / Jupyter Notebook  
+1️⃣ Open Jupyter Notebook / VS Code  
 2️⃣ Open `FinalProject.ipynb`  
-3️⃣ Run cells one by one  
-
----
-
-## 🧠 Steps Performed
-
-✔️ Import libraries  
-✔️ Load dataset  
-✔️ Explore data (`head`, `info`, `describe`)  
-✔️ Handle missing values  
-✔️ Remove duplicates  
-✔️ Convert data types  
-✔️ Perform sorting & grouping  
-✔️ Create visualizations  
-
----
-
-## 📊 Visualizations Included
-
-📌 Top 10 Happiest Countries (Bar Chart)  
-📌 Average Happiness by Region  
-📌 Happiness Score vs Rank (Line Plot)  
-📌 GDP vs Happiness Score (Scatter Plot)  
-📌 Region Distribution (Pie Chart)  
-📌 Happiness Score Distribution (Histogram)  
+3️⃣ Run all cells step-by-step  
 
 ---
 
 ## 📸 Screenshots
 
-### 🔹 Dataset Preview
-![s1](Screenshots/s1.png)
+### 📌 Dataset Preview
+![Dataset](Screenshots/s1.png)
 
-### 🔹 Data Info
-![s2](Screenshots/s2.png)
+### 📌 Data Info
+![Info](Screenshots/s2.png)
 
-### 🔹 Statistical Summary
-![s3](Screenshots/s3.png)
+### 📌 Statistical Summary
+![Summary](Screenshots/s3.png)
 
-### 🔹 Missing Values
-![s4](Screenshots/s4.png)
+### 📌 Missing Values
+![Missing](Screenshots/s4.png)
 
-### 🔹 Data Cleaning Code
-![s5](Screenshots/s5.png)
+### 📌 Data Cleaning
+![Cleaning](Screenshots/s5.png)
 
-### 🔹 Top 10 Happiest Countries
-![s6](Screenshots/s6.png)
+### 📌 Top 10 Happiest Countries
+![Top10](Screenshots/s6.png)
 
-### 🔹 Average Happiness by Region
-![s7](Screenshots/s7.png)
+### 📌 Average Happiness by Region
+![Region](Screenshots/s7.png)
 
-### 🔹 Happiness Score vs Rank
-![s8](Screenshots/s8.png)
+### 📌 Happiness Score vs Rank
+![Rank](Screenshots/s8.png)
 
-### 🔹 GDP vs Happiness (Scatter)
-![s9](Screenshots/s9.png)
-
----
-
-## 📈 Key Insights
-
-✨ Countries with higher GDP tend to have higher happiness scores  
-✨ Western Europe dominates top happiness rankings  
-✨ Strong correlation between economy and happiness  
-✨ Distribution shows most countries fall in mid happiness range  
+### 📌 GDP vs Happiness
+![GDP](Screenshots/s9.png)
 
 ---
 
-## 🎯 Purpose of Project
+## 📊 Key Insights
 
-✔️ Understand real-world dataset analysis  
-✔️ Learn data cleaning techniques  
-✔️ Practice visualization skills  
-✔️ Build strong Python + Pandas foundation  
+✨ Higher GDP → higher happiness  
+✨ Western Europe dominates top ranks  
+✨ Strong relation between economy & happiness  
+✨ Most countries fall in mid happiness range  
+
+---
+
+## 🎯 Purpose
+
+✔️ Learn Data Analysis  
+✔️ Practice Pandas & Visualization  
+✔️ Understand real-world dataset  
 
 ---
 
 ## 🔮 Future Improvements
 
-✨ Add interactive dashboards (Plotly / Streamlit)  
+✨ Add dashboard (Streamlit)  
 ✨ Compare multiple years  
-✨ Machine learning predictions 🤖  
-✨ Web-based UI  
+✨ Add ML predictions 🤖  
 
 ---
 
 ## 🙌 Conclusion
 
-This project demonstrates how raw data can be transformed into **clear insights and visual stories** using Python.
+This project shows how raw data can be converted into **clear visual insights using Python**.
 
 ---
+
 
