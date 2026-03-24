@@ -1,122 +1,114 @@
-```markdown
-# 🌍 World Happiness Data Analysis & Visualization 📊
+````markdown
+# 📊 Data Analysis Final Project
 
-✨ This project analyzes the **World Happiness Report (2015 dataset)** using Python and creates meaningful visual insights.
+> **An in-depth data exploration and visualization project built with Python.**
 
----
-
-## 🚀 Features
-
-🔹 Data loading & exploration
-🔹 Data cleaning (missing values handled)
-🔹 Statistical analysis
-🔹 Data visualization (charts & graphs)
-🔹 Insights from Happiness Score
+Welcome to the **Final Project** repository! This project focuses on performing comprehensive Exploratory Data Analysis (EDA) and generating insightful visualizations using standard Python data science libraries. The analysis is documented step-by-step within a Jupyter Notebook.
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-- 🐍 Python
-- 📦 Pandas
-- 🔢 NumPy
-- 📊 Matplotlib
-- 🎨 Seaborn
+* **Language:** Python 🐍
+* **Data Manipulation:** Pandas 🐼, NumPy 🔢
+* **Data Visualization:** Matplotlib 📈, Seaborn 🌊
+* **Environment:** Jupyter Notebook 📓
 
 ---
 
 ## 📂 Project Structure
-```
 
+```text
 Final Project/
-│── Screenshots/
-│ ├── s1.png
-│ ├── s2.png
-│ ├── s3.png
-│ ├── s4.png
-│ ├── s5.png
-│ ├── s6.png
-│ ├── s7.png
-│ ├── s8.png
-│ ├── s9.png
 │
-│── 2015.csv
-│── FinalProject.ipynb
-│── README.md
+├── FinalProject.ipynb       # Main Jupyter Notebook containing code and analysis
+├── README.md                # Project documentation
+│
+└── Screenshots/             # Folder containing all project visuals
+    ├── s1.png
+    ├── s2.png
+    ├── s3.png
+    ...
+````
 
-```
+-----
 
----
+## 📸 Project Gallery & Analysis Workflow
 
-## ▶️ How to Run
+Below is the step-by-step visual documentation of the analysis process.
 
-1️⃣ Open Jupyter Notebook / VS Code
-2️⃣ Open `FinalProject.ipynb`
-3️⃣ Run all cells step-by-step
+### 1\. Initial Setup & Data Loading
 
----
+*Importing libraries and loading the dataset into the environment.*
 
-## 📸 Screenshots
+\<div align="center"\>
+\<img src="Screenshots/s1.png" alt="Setup and Imports" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+\</div\>
 
-### 📌 Dataset Preview
-![Dataset](Screenshots/s1.png)
+### 2\. Data Overview & Cleaning
 
-### 📌 Data Info
-![Info](Screenshots/s2.png)
+*Inspecting the raw data, handling missing values, and preparing it for analysis.*
 
-### 📌 Statistical Summary
-![Summary](Screenshots/s3.png)
+\<div align="center"\>
+\<img src="Screenshots/s2.png" alt="Data Cleaning" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+\</div\>
 
-### 📌 Missing Values
-![Missing](Screenshots/s4.png)
+### 3\. Exploratory Data Analysis (EDA)
 
-### 📌 Data Cleaning
-![Cleaning](Screenshots/s5.png)
+*Uncovering initial patterns, trends, and distributions within the dataset.*
 
-### 📌 Top 10 Happiest Countries
-![Top10](Screenshots/s6.png)
+\<div align="center"\>
+\<img src="Screenshots/s3.png" alt="EDA Part 1" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+<br><br>
+\<img src="Screenshots/s4.png" alt="EDA Part 2" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+\</div\>
 
-### 📌 Average Happiness by Region
-![Region](Screenshots/s7.png)
+### 4\. Advanced Visualizations
 
-### 📌 Happiness Score vs Rank
-![Rank](Screenshots/s8.png)
+*Deep-dive graphical representations using Matplotlib and Seaborn.*
 
-### 📌 GDP vs Happiness
-![GDP](Screenshots/s9.png)
+\<div align="center"\>
+\<img src="Screenshots/s5.png" alt="Visualization 1" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+<br><br>
+\<img src="Screenshots/s6.png" alt="Visualization 2" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+<br><br>
+\<img src="Screenshots/s7.png" alt="Visualization 3" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+\</div\>
 
----
+### 5\. Final Insights & Results
 
-## 📊 Key Insights
+*Concluding observations drawn from the visualized data.*
 
-✨ Higher GDP → higher happiness
-✨ Western Europe dominates top ranks
-✨ Strong relation between economy & happiness
-✨ Most countries fall in mid happiness range
+\<div align="center"\>
+\<img src="Screenshots/s8.png" alt="Insights" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+<br><br>
+\<img src="Screenshots/s9.png" alt="Conclusion" width="800" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/\>
+\</div\>
 
----
+-----
 
-## 🎯 Purpose
+## ⚙️ How to Run Locally
 
-✔️ Learn Data Analysis
-✔️ Practice Pandas & Visualization
-✔️ Understand real-world dataset
+To explore the code and run the analysis on your own machine:
 
----
+1.  **Clone or Download** this repository.
+2.  Ensure you have **Python** and **Jupyter Notebook** installed.
+3.  Install the required dependencies:
+    ```bash
+    pip install pandas numpy matplotlib seaborn jupyter
+    ```
+4.  Navigate to the project directory in your terminal:
+    ```bash
+    cd "Final Project"
+    ```
+5.  Launch the Jupyter Notebook:
+    ```bash
+    jupyter notebook
+    ```
+6.  Open `FinalProject.ipynb` to view and run the code cells.
 
-## 🔮 Future Improvements
+-----
 
-✨ Add dashboard (Streamlit)
-✨ Compare multiple years
-✨ Add ML predictions 🤖
+## 👨‍💻 Author
 
----
-
-## 🙌 Conclusion
-
-This project shows how raw data can be converted into **clear visual insights using Python**.
-
----
-
-
-```
+**Devan Patel** ---
